@@ -6,4 +6,13 @@ public class Comment {
     private int postId;
     private int likes;
     private User user;
+
+
+    public Comment(int id, String body, int postId, int likes, User user) {
+        this.id = id;
+        this.body = body;
+        this.postId = postId;
+        this.likes = likes;
+        this.user = user;
+    }
 }
